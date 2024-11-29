@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Map;
 
-@RequestMapping(path = "/restaurant")
+@RequestMapping(path = "/api/restaurant")
 public interface RestaurantRest {
     @PostMapping(path = "/signUp")
     public ResponseEntity<String> restaurantSignup(@RequestBody(required = true)Map<String,String> requestMap);

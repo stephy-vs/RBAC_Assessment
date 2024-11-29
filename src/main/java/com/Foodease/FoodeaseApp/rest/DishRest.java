@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-@RequestMapping(path = "/dish")
+@RequestMapping(path = "/api/dish")
 public interface DishRest {
 
     @PostMapping(path = "/add")

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Map;
 
-@RequestMapping(path = "/type")
+@RequestMapping(path = "/api/type")
 public interface CategoryTypeRest {
 
     @PostMapping(path = "/add")

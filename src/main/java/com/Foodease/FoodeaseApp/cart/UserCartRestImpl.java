@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/cart")
+@RequestMapping(path = "/api/cart")
 public class UserCartRestImpl {
     @Autowired
     UserCartServiceImpl userCartService;
