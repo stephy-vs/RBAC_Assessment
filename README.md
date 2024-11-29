@@ -32,8 +32,10 @@ Authentication: [JWT]
 **API Endpoints**
 Admin
 Login - Post /api/admin/login
-"email":"admindefault@gmail.com",
-"password":"password"
+{
+  "email":"admindefault@gmail.com",
+  "password":"password"
+}
 
 
 Add CategoryType - Post /api/type/add
